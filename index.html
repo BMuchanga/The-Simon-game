@@ -1,32 +1,44 @@
-<!--proceed to the next level by repeatinmg the sequence of colours-->
+<!--proceed to the next level by repeating the sequence of colours-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Simon Game</title>
-    <link  href="index.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 </head>
 <body>
-
-   <h1>The Simon Game</h1>
-   <h2>Press a key to start</h2>
-   <div id="container">
-
-    <div id="container1">
-        <div type="button" id="green" class="btn"></div>
-        <div type="button" id="yellow" class="btn"></div>
+    <h1 id="level-title">Press A Key to Start</h1>
+    <div class="container">
+      <div lass="row">
+  
+        <div type="button" id="green" class="btn green">
+  
+        </div>
+  
+        <div type="button" id="red" class="btn red">
+  
+        </div>
+      </div>
+  
+      <div class="row">
+  
+        <div type="button" id="yellow" class="btn yellow">
+  
+        </div>
+        <div type="button" id="blue" class="btn blue">
+  
+        </div>
+  
+      </div>
+  
     </div>
-
-    <div id="container2">
-        <div type="button" id="red" class="btn"></div>
-        <div type="button" id="blue" class="btn"></div>
-   </div>
-     
+  
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="index.js"></script>
+    <script src="index.js" charset="utf-8"></script>
 </body>
 </html>
 
-<!--creation of JS document-->
+<!--changes to Js document-->
